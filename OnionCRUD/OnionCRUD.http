@@ -1,0 +1,6 @@
+@OnionCRUD_HostAddress = http://localhost:5191
+
+GET {{OnionCRUD_HostAddress}}/swagger/
+Accept: application/json
+
+###
