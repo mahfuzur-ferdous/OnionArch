@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionCRUD", "OnionCRUD\OnionCRUD.csproj", "{EFDE1828-4B3E-43F2-A093-478FCC6DDCE2}"
 EndProject
@@ -10,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryLayer", "RepositoryLayer\RepositoryLayer.csproj", "{2B619B4A-A3A7-42B2-8A9C-C6AFB59883DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{88850702-6484-406D-B6AF-ADED6DFD6092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{F74514D5-A642-4676-AB83-635DEC6F1490}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88850702-6484-406D-B6AF-ADED6DFD6092} = {88850702-6484-406D-B6AF-ADED6DFD6092}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +38,10 @@ Global
 		{88850702-6484-406D-B6AF-ADED6DFD6092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88850702-6484-406D-B6AF-ADED6DFD6092}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88850702-6484-406D-B6AF-ADED6DFD6092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74514D5-A642-4676-AB83-635DEC6F1490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74514D5-A642-4676-AB83-635DEC6F1490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74514D5-A642-4676-AB83-635DEC6F1490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74514D5-A642-4676-AB83-635DEC6F1490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

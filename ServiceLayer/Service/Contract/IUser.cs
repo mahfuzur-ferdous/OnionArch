@@ -1,22 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DomainLayer.Models;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+//using DomainLayer.Models;
 
-namespace ServiceLayer.Service.Contract
-{
-    public interface IUser
-    {
-        List<User> GetAllRepo();
-        User GetSingleRepo(int id);
+//namespace ServiceLayer.Service.Contract
+//{
+//    public interface IUser
+//    {
+//        List<User> GetAllRepo();
+//        User GetSingleRepo(int id);
 
-        string AddUserRepo(User user);
+//        string AddUserRepo(User user);
 
-        string UpdateUserRepo(User user);
-        string DeleteUserRepo(int id);
+//        string UpdateUserRepo(User user);
+//        string DeleteUserRepo(int id);
 
 
-    }
-}
+//    }
+//}
